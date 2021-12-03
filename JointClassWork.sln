@@ -4,7 +4,7 @@
         {
            1, 2, 4, 5, 6, 7, 9, 10
         };
-        public static int result;
+         static int result;
 
 
        public int Solution(int[] numbers)
@@ -39,3 +39,13 @@
             Console.WriteLine("Lowest postive number is {0}", result);
 
         }
+        
+         static void Main(string[] args)
+        {
+            Program solve = new Program();
+            solve.Solution(numbers);
+            Console.WriteLine("Lowest postive number is {0}", result);
+
+
+        }
+
